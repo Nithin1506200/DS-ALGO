@@ -1,4 +1,4 @@
 # DSA-ALGO
 
-- [Big O notation](src/big_o_notation/)
-- [Trees](src/trees/)
+- [Big O notation](docs/big_o_notation/)
+- [Trees](docs/trees/)

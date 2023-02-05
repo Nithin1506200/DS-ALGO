@@ -1,10 +1,9 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Notation](#notation)
   - [Big O notation](#big-o-notation)
-- [Readme](#readme)
+      - [this is big o notation file](#this-is-big-o-notation-file)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -36,6 +35,3 @@ for i in x:
 ```
 
 </details>
-
-# Readme
-
