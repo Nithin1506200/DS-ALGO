@@ -2,8 +2,7 @@
 
 ### this is big o notation file
 
-<details>
-<summary><b>javascript</b></summary>
+- javascript
 
 ```javascript
 const x = 0;
@@ -12,15 +11,10 @@ for (let i of [1, 2, 3]) {
 }
 ```
 
-</details>
-
-<details>
-<summary><b>python</b></summary>
+- python
 
 ```python
 x=[1,2,3]
 for i in x:
     print(i)
 ```
-
-</details>

@@ -1,9 +1,9 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Notation](#notation)
   - [Big O notation](#big-o-notation)
-      - [this is big o notation file](#this-is-big-o-notation-file)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -13,8 +13,7 @@
 
 #### this is big o notation file
 
-<details>
-<summary><b>javascript</b></summary>
+- javascript
 
 ```javascript
 const x = 0;
@@ -23,15 +22,10 @@ for (let i of [1, 2, 3]) {
 }
 ```
 
-</details>
-
-<details>
-<summary><b>python</b></summary>
+- python
 
 ```python
 x=[1,2,3]
 for i in x:
     print(i)
 ```
-
-</details>
