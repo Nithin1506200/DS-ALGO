@@ -23,13 +23,14 @@ for (let i of [1, 2, 3]) {
 ```
 
 <details><summary>python</summary>
-<p>
+<code>
 
 ```python
+##hidden
 x=[1,2,3]
 for i in x:
     print(i)
 ```
 
-</p>
+</code>
 </details>
