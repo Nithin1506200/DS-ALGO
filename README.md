@@ -1,3 +1,3 @@
 # DSA-ALGO
 
-[docs](docs)
+[GET STARTED HERE](docs)
