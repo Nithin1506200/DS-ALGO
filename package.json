@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "docs": " npx concat-md --toc --decrease-title-levels --file-name-as-title --dir-name-as-title ./src > docs/readme.md"
+  },
+  "devDependencies": {
+    "concat-md": "^0.5.0"
+  }
+}
