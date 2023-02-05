@@ -11,10 +11,14 @@ for (let i of [1, 2, 3]) {
 }
 ```
 
-- python
+<details><summary>python</summary>
+<p>
 
 ```python
 x=[1,2,3]
 for i in x:
     print(i)
 ```
+
+</p>
+</details>
