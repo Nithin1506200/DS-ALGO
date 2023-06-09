@@ -1,5 +1,7 @@
 import LinkedList from "../linked_list";
-
+/**
+ * { @link } https://leetcode.com/problems/reverse-linked-list/
+ */
 export function reverse_linked_list(
   head: LinkedList | null
 ): LinkedList | null {
