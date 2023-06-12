@@ -1,4 +1,4 @@
-import LinkedList from "../linked_list";
+import LinkedList from '../linked_list';
 /**
  * { @link } https://leetcode.com/problems/reverse-linked-list/
  */
@@ -11,7 +11,7 @@ export function reverse_linked_list(
   let current: LinkedList | null = head;
   let prev: LinkedList | null = null;
   while (current) {
-    let next: LinkedList | null = current.next;
+    const next: LinkedList | null = current.next;
     current.next = next;
     prev = current;
     current = next;
