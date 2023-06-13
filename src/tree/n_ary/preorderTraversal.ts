@@ -24,7 +24,7 @@ function preorder_(root: Node | null): number[] {
     result.push(root.val);
 
     if (root.children) {
-      for (let node of root.children) {
+      for (const node of root.children) {
         result = result.concat(preorder_(node));
       }
     }

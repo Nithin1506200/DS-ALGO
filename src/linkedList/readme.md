@@ -1,0 +1,3 @@
+- reverse linked list
+- middle element of linked list
+- find loop is there in linked list

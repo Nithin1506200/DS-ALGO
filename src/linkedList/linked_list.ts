@@ -5,6 +5,7 @@ export default class LinkedList<T = number> {
     this.val = val;
     this.next = null;
   }
+
   static from_array<T>(array: Array<T>): LinkedList<T> | null {
     let ll: LinkedList<T> | null = null;
     for (const i of array) {

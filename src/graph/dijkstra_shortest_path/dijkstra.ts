@@ -1,5 +1,6 @@
 /**
- * {@linkhttps://www.geeksforgeeks.org/introduction-to-dijkstras-shortest-path-algorithm/}
+ * {@link https://www.geeksforgeeks.org/introduction-to-dijkstras-shortest-path-algorithm/}
+ *
  * {@link https://www.youtube.com/watch?v=bZkzH5x0SKU}
  */
 export default function dijkstra_shortest_path(
@@ -15,7 +16,7 @@ export default function dijkstra_shortest_path(
    * shortest distances from soruce to vertices
    */
   const shortest: { [key: number]: number } = {};
-  const visited: { [key: number]: Boolean } = {};
+  const visited: { [key: number]: boolean } = {};
   const parents: { [key: number]: number } = {};
   for (let v = 0; v < n; v++) {
     shortest[v] = Number.MAX_VALUE;
@@ -40,7 +41,7 @@ export default function dijkstra_shortest_path(
       }
       visited[temp] = true;
       for (let v = 0; v < n; v++) {
-        let dist = adj[temp][v];
+        const dist = adj[temp][v];
         if (dist > 0 && min + dist < shortest[v]) {
           parents[v] = temp;
           shortest[v] = min + dist;
