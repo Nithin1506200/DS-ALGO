@@ -1,3 +1,8 @@
+/**
+ * {@link https://www.youtube.com/watch?v=WprjBK0p6rw}
+ * @param a
+ * @param index
+ */
 export function quick_sort(
   a: Array<number>,
   index: { low: number; high: number } | undefined
@@ -11,6 +16,14 @@ export function quick_sort(
     quick_sort(a, { low: p + 1, high: index.high });
   }
 }
+/**
+ * this partician places the pivot element in such a place that the\
+ *  leftside is always lesser thn that pivot and all right is greater thn that pivot
+ * @param a
+ * @param l
+ * @param r
+ * @returns
+ */
 function partition(a: Array<number>, l: number, r: number): number {
   const pivot: number = a[r];
   let i = l - 1;
