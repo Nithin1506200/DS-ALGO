@@ -179,7 +179,7 @@ class Tree {
    *
    *
    */
-  private isParentLocked(node: MyNode | null): boolean | "Thread Locked" {
+  private isParentLocked(node: MyNode | null): boolean | 'Thread Locked' {
     let currentNode: MyNode | null = node;
 
     while (currentNode !== null) {
