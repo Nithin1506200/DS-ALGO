@@ -1,5 +1,6 @@
 /**
  * {@link https://www.youtube.com/watch?v=WprjBK0p6rw}
+ * worst case O(n^2)
  * @param a
  * @param index
  */
