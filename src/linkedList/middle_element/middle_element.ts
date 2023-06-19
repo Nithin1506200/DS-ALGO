@@ -1,6 +1,9 @@
 import LinkedList from '../linked_list';
 
 export function middle_element(head: LinkedList): number | undefined {
+  if (head == null) {
+    return undefined;
+  }
   let s: LinkedList | null = head;
   let f: LinkedList | null = head;
   while (s && f && f.next) {
