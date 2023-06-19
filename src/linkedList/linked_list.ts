@@ -8,11 +8,14 @@ export default class LinkedList<T = number> {
 
   static from_array<T>(array: Array<T>): LinkedList<T> | null {
     let ll: LinkedList<T> | null = null;
+    let ptr: LinkedList<T> | null = ll;
     for (const i of array) {
-      if (ll === null) {
+      if (ptr === null) {
         ll = new LinkedList<T>(i);
+        ptr = ll;
       } else {
-        ll.next = new LinkedList<T>(i);
+        ptr.next = new LinkedList<T>(i);
+        ptr = ptr.next;
       }
     }
     return ll;

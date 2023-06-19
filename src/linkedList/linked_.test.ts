@@ -20,7 +20,6 @@ describe('linked list', () => {
     // head
     let newPtr: LinkedList | null = head;
     while (newPtr) {
-      console.log(newPtr.val);
       newPtr = newPtr.next;
     }
   });
