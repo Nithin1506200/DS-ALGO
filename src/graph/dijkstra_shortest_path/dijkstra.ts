@@ -6,7 +6,8 @@
 export default function dijkstra_shortest_path(
   adj: Array<number[]>,
   src: number,
-  dest: number
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  _dest: number
 ) {
   /**
    * the number of vertices
